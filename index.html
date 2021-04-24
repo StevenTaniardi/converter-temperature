@@ -8,9 +8,29 @@
 </head>
 <body>
     <h1>Create a Temperature Converter</h1>
-    <label for="inputFerenheit">Farenheit :</label>
-    <input type="number" id="inputFerenheit" placeholder="input farenheit">
-    <p>Cencius<span id="outputCelcius"></span></p>
+    <label for="inputFahrenheitc">Farenheit :</label>
+    <input type="number" id="inputFahrenheitc" placeholder="input fahrenheit" oninput="temperatureConverturefc(this.value)">
+    <p>Cencius : <span id="outputCelciusf"></span></p>
+
+    <label for="inputCelciusf">Celcius :</label>
+    <input type="number" id="inputCelciusf" placeholder="input Celcius" oninput="temperatureConverturecf(this.value)">
+    <p>fahrenheit : <span id="outputFahrenheitc"></span></p>
+
+    <label for="inputCelciusk">Celcius :</label>
+    <input type="number" id="inputCelciusk" placeholder="input Celcius" oninput="temperatureConvertureck(this.value)">
+    <p>Kelvin : <span id="outputKelvinc"></span></p>
+
+    <label for="inputKelvinc">Kelvin :</label>
+    <input type="number" id="inputKelvinc" placeholder="input kelvin" oninput="temperatureConverturekc(this.value)">
+    <p>Celcius : <span id="outputCelciusk"></span></p>
+
+    <label for="inputFahrenheitk">fahrenheit :</label>
+    <input type="number" id="inputFahrenheitk" placeholder="input Farenheit" oninput="temperatureConverturefk(this.value)">
+    <p>Kelvin : <span id="outputKelvinf"></span></p>
+
+    <label for="inputKelvinf">Kelvin :</label>
+    <input type="number" id="inputKelvinf" placeholder="input kelvin" oninput="temperatureConverturekf(this.value)">
+    <p>Celcius : <span id="outputFahrenheitk"></span></p>
 
     <script src="script.js"></script>
 </body>
